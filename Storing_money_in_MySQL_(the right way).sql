@@ -1,5 +1,5 @@
 DROP TABLE money;
--- Method 01 Bad Practice
+-- Method 01 Bad Practice DO not use double or float
 CREATE TABLE money (
     id INT AUTO_INCREMENT PRIMARY KEY,
     money_1 DOUBLE,
